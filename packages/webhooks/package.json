@@ -38,8 +38,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@golevelup/nestjs-common": "^1.4.3-rc.2",
-    "@golevelup/nestjs-modules": "^0.4.4-rc.2"
+    "@golevelup/nestjs-common": "^1.4.2-rc.2",
+    "@golevelup/nestjs-modules": "^0.4.3-rc.2"
   },
   "peerDependencies": {
     "body-parser": "^1.19.0"
