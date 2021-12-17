@@ -3,6 +3,60 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **eslint:** add missing eslint dev deps ([7bfcc2c](https://github.com/golevelup/nestjs/commit/7bfcc2c))
+- **eslint:** fix sonarcloud diplicate code error ([1868fab](https://github.com/golevelup/nestjs/commit/1868fab))
+- **rabbitmq:** add await to publish on reply-to ([59c57ca](https://github.com/golevelup/nestjs/commit/59c57ca))
+- **rabbitmq:** add missing queue options ([0f37fb6](https://github.com/golevelup/nestjs/commit/0f37fb6))
+- **rabbitmq:** added missing dep on @levelup-nestjs/modules ([b9510b3](https://github.com/golevelup/nestjs/commit/b9510b3))
+- **rabbitmq:** bind queue if routingKey is empty string ([fdac216](https://github.com/golevelup/nestjs/commit/fdac216)), closes [#328](https://github.com/golevelup/nestjs/issues/328)
+- **rabbitmq:** check buffer has content before trying to parse as JSON ([#286](https://github.com/golevelup/nestjs/issues/286)) ([cfde21e](https://github.com/golevelup/nestjs/commit/cfde21e)), closes [#285](https://github.com/golevelup/nestjs/issues/285)
+- **rabbitmq:** error behavior enum ([6b5bc1f](https://github.com/golevelup/nestjs/commit/6b5bc1f)), closes [#187](https://github.com/golevelup/nestjs/issues/187)
+- **rabbitmq:** fix incorrect TS typings ([602cd2d](https://github.com/golevelup/nestjs/commit/602cd2d)), closes [#77](https://github.com/golevelup/nestjs/issues/77)
+- **rabbitmq:** prevent unhandled promise rejection warning ([7000d4f](https://github.com/golevelup/nestjs/commit/7000d4f)), closes [#259](https://github.com/golevelup/nestjs/issues/259)
+
+### Features
+
+- add option for arguments when binding queue to an exchange ([41d2725](https://github.com/golevelup/nestjs/commit/41d2725))
+- direct queue messaging, optional routing key and exchange ([305922e](https://github.com/golevelup/nestjs/commit/305922e)), closes [#316](https://github.com/golevelup/nestjs/issues/316)
+- **all packages:** upgrade to Nest v6 ([5a8e903](https://github.com/golevelup/nestjs/commit/5a8e903))
+- **common:** injectable decorator factory ([42b2f34](https://github.com/golevelup/nestjs/commit/42b2f34)), closes [#120](https://github.com/golevelup/nestjs/issues/120)
+- **con-mgmt:** init options,wiki,tests ([8ca3260](https://github.com/golevelup/nestjs/commit/8ca3260))
+- **con-mgr:** refactor and fix isConnected usage ([4cafa8a](https://github.com/golevelup/nestjs/commit/4cafa8a))
+- **conn-mgr:** add amqp-connection-manager ([0bf5e94](https://github.com/golevelup/nestjs/commit/0bf5e94))
+- **conn-mgr:** align tests ([ce79db6](https://github.com/golevelup/nestjs/commit/ce79db6))
+- **conn-mgr:** config, events, publish fail ([ad28e86](https://github.com/golevelup/nestjs/commit/ad28e86))
+- **conn-mgr:** refactor ([a33b465](https://github.com/golevelup/nestjs/commit/a33b465))
+- **conn-mgr:** review fixes, backward compatible ([757e8b3](https://github.com/golevelup/nestjs/commit/757e8b3))
+- **conn-mgr:** types + wiki ([82eef04](https://github.com/golevelup/nestjs/commit/82eef04))
+- **conn-mgr:** update wiki ([3a9bbd4](https://github.com/golevelup/nestjs/commit/3a9bbd4))
+- **conn-mgr:** use connection manager ([9049058](https://github.com/golevelup/nestjs/commit/9049058))
+- **dynamic modules:** helpers to reduce dynamic module boilerplate ([80a2b2c](https://github.com/golevelup/nestjs/commit/80a2b2c))
+- **hasura:** event handling service ([09d3f4d](https://github.com/golevelup/nestjs/commit/09d3f4d)), closes [#116](https://github.com/golevelup/nestjs/issues/116)
+- **modules:** udpate create function name to match fit nest terminology ([d3eae4a](https://github.com/golevelup/nestjs/commit/d3eae4a))
+- **rabbitmq:** add ability to bind handlers to multiple exchange keys ([dd131fe](https://github.com/golevelup/nestjs/commit/dd131fe)), closes [#79](https://github.com/golevelup/nestjs/issues/79)
+- **rabbitmq:** add correlationId to request ([81cd0ac](https://github.com/golevelup/nestjs/commit/81cd0ac))
+- **rabbitmq:** added error callbacks in favor of error behaviors ([85b1b67](https://github.com/golevelup/nestjs/commit/85b1b67))
+- **rabbitmq:** adds additional queue options ([254d79c](https://github.com/golevelup/nestjs/commit/254d79c))
+- **rabbitmq:** adds additional queue options for rpc ([d9b9d14](https://github.com/golevelup/nestjs/commit/d9b9d14))
+- **rabbitmq:** adds consistent rabbitmq config ([8d6de1d](https://github.com/golevelup/nestjs/commit/8d6de1d)), closes [#34](https://github.com/golevelup/nestjs/issues/34)
+- **rabbitmq:** cleanup for error handlers ([ddd4707](https://github.com/golevelup/nestjs/commit/ddd4707))
+- **rabbitmq:** enable conditional rpc/subscribe handler registration ([34c5965](https://github.com/golevelup/nestjs/commit/34c5965)), closes [#98](https://github.com/golevelup/nestjs/issues/98)
+- **rabbitmq:** error behaviour for replying error ([e438a2a](https://github.com/golevelup/nestjs/commit/e438a2a))
+- **rabbitmq:** execution context check utility ([4256a6b](https://github.com/golevelup/nestjs/commit/4256a6b)), closes [#204](https://github.com/golevelup/nestjs/issues/204)
+- **rabbitmq:** integration tests, added option for non-json messages ([bc71ffa](https://github.com/golevelup/nestjs/commit/bc71ffa))
+- **rabbitmq:** log the disconnect event from connection manager ([9fa5708](https://github.com/golevelup/nestjs/commit/9fa5708))
+- **rabbitmq:** message handling and configuration ([6268eaf](https://github.com/golevelup/nestjs/commit/6268eaf)), closes [#32](https://github.com/golevelup/nestjs/issues/32)
+- **rabbitmq:** module shutdown logic ([562b99c](https://github.com/golevelup/nestjs/commit/562b99c)), closes [#193](https://github.com/golevelup/nestjs/issues/193)
+- **rabbitmq:** optional direct reply-to ([3b7625c](https://github.com/golevelup/nestjs/commit/3b7625c)), closes [#109](https://github.com/golevelup/nestjs/issues/109)
+
+### BREAKING CHANGES
+
+- **all packages:** upgrades underlying nest package dependencies to v6 versions
+
 ## [1.18.2-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.18.2-rc.1...@golevelup/nestjs-rabbitmq@1.18.2-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/nestjs-rabbitmq

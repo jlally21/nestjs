@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.5.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **eslint:** fix sonarcloud diplicate code error ([1868fab](https://github.com/golevelup/nestjs/commit/1868fab))
+- **modules:** specify correct dependencies ([46e6f93](https://github.com/golevelup/nestjs/commit/46e6f93)), closes [#300](https://github.com/golevelup/nestjs/issues/300)
+
+### Features
+
+- **dynamic modules:** helpers to reduce dynamic module boilerplate ([80a2b2c](https://github.com/golevelup/nestjs/commit/80a2b2c))
+- **hasura:** event handling service ([09d3f4d](https://github.com/golevelup/nestjs/commit/09d3f4d)), closes [#116](https://github.com/golevelup/nestjs/issues/116)
+- **modules:** added readme documentation ([2942461](https://github.com/golevelup/nestjs/commit/2942461))
+- **modules:** udpate create function name to match fit nest terminology ([d3eae4a](https://github.com/golevelup/nestjs/commit/d3eae4a))
+
 ## [0.4.4-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-modules@0.4.4-rc.1...@golevelup/nestjs-modules@0.4.4-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/nestjs-modules

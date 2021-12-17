@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **hasura:** mismatch on variables ([592b14e](https://github.com/golevelup/nestjs/commit/592b14e))
+- **stripe, hasura:** forRootAsync dynamic controllers ([c4d10bf](https://github.com/golevelup/nestjs/commit/c4d10bf)), closes [#148](https://github.com/golevelup/nestjs/issues/148)
+
+### Features
+
+- **common:** injectable decorator factory ([42b2f34](https://github.com/golevelup/nestjs/commit/42b2f34)), closes [#120](https://github.com/golevelup/nestjs/issues/120)
+- **graphql-request:** module ([c38ca5d](https://github.com/golevelup/nestjs/commit/c38ca5d))
+- **hasura:** add HasuraAction type ([0b51c46](https://github.com/golevelup/nestjs/commit/0b51c46))
+- **hasura:** allow for custom decorators on controller ([32802e6](https://github.com/golevelup/nestjs/commit/32802e6))
+- **hasura:** configurable controller prefix ([15c085c](https://github.com/golevelup/nestjs/commit/15c085c)), closes [#129](https://github.com/golevelup/nestjs/issues/129)
+- **hasura:** enable event routing based on trigger name ([877462c](https://github.com/golevelup/nestjs/commit/877462c)), closes [#152](https://github.com/golevelup/nestjs/issues/152)
+- **hasura:** event handling service ([09d3f4d](https://github.com/golevelup/nestjs/commit/09d3f4d)), closes [#116](https://github.com/golevelup/nestjs/issues/116)
+- **hasura:** managed event and cron triggers ([92b74fa](https://github.com/golevelup/nestjs/commit/92b74fa))
+- **hasura:** metadata output property ordering ([9e15b1b](https://github.com/golevelup/nestjs/commit/9e15b1b)), closes [#219](https://github.com/golevelup/nestjs/issues/219)
+- **hasura:** metadata v3 support ([#284](https://github.com/golevelup/nestjs/issues/284)) ([bcb6fc6](https://github.com/golevelup/nestjs/commit/bcb6fc6)), closes [#250](https://github.com/golevelup/nestjs/issues/250)
+- **hasura:** scheduled event support ([d677854](https://github.com/golevelup/nestjs/commit/d677854)), closes [#175](https://github.com/golevelup/nestjs/issues/175)
+- **stripe:** new stripe package ([ffbcc86](https://github.com/golevelup/nestjs/commit/ffbcc86))
+
+### BREAKING CHANGES
+
+- **hasura:** new format for Hasura module configuration
+
 ## [1.3.2-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-hasura@1.3.2-rc.1...@golevelup/nestjs-hasura@1.3.2-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/nestjs-hasura

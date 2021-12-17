@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.3.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **stripe, hasura:** forRootAsync dynamic controllers ([c4d10bf](https://github.com/golevelup/nestjs/commit/c4d10bf)), closes [#148](https://github.com/golevelup/nestjs/issues/148)
+
+### Features
+
+- **stripe:** add ability to use custom decorators on controller ([ebe8e72](https://github.com/golevelup/nestjs/commit/ebe8e72))
+- **stripe:** new stripe package ([ffbcc86](https://github.com/golevelup/nestjs/commit/ffbcc86))
+- **stripe:** restrict event string to valid set ([76d8119](https://github.com/golevelup/nestjs/commit/76d8119)), closes [#170](https://github.com/golevelup/nestjs/issues/170)
+
 ## [0.2.3-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-stripe@0.2.3-rc.1...@golevelup/nestjs-stripe@0.2.3-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/nestjs-stripe

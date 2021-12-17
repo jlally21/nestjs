@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.0.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **discovery:** add lodash as dependency ([b1baad6](https://github.com/golevelup/nestjs/commit/b1baad6))
+- **discovery:** discovery of components/providers in lazy way ([8a6fa7f](https://github.com/golevelup/nestjs/commit/8a6fa7f))
+- **discovery:** tolerate possibly null providers ([30c87d0](https://github.com/golevelup/nestjs/commit/30c87d0)), closes [#44](https://github.com/golevelup/nestjs/issues/44)
+- **eslint:** add missing eslint dev deps ([7bfcc2c](https://github.com/golevelup/nestjs/commit/7bfcc2c))
+- **eslint:** fix sonarcloud diplicate code error ([1868fab](https://github.com/golevelup/nestjs/commit/1868fab))
+- **integration:** update integration test packages and fix tests ([1a2a8cb](https://github.com/golevelup/nestjs/commit/1a2a8cb))
+
+### Features
+
+- **all packages:** upgrade to Nest v6 ([5a8e903](https://github.com/golevelup/nestjs/commit/5a8e903))
+- **hasura:** event handling service ([09d3f4d](https://github.com/golevelup/nestjs/commit/09d3f4d)), closes [#116](https://github.com/golevelup/nestjs/issues/116)
+
+### BREAKING CHANGES
+
+- **all packages:** upgrades underlying nest package dependencies to v6 versions
+
 ## [2.3.2-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-discovery@2.3.2-rc.1...@golevelup/nestjs-discovery@2.3.2-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/nestjs-discovery

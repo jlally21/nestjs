@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.0.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **dynamic-modules:** incorrectly configured some forRootAsync scenarios ([8560460](https://github.com/golevelup/nestjs/commit/8560460)), closes [AB#8](https://github.com/AB/issues/8)
+
+### Features
+
+- **all packages:** upgrade to Nest v6 ([5a8e903](https://github.com/golevelup/nestjs/commit/5a8e903))
+- **common:** injectable decorator factory ([42b2f34](https://github.com/golevelup/nestjs/commit/42b2f34)), closes [#120](https://github.com/golevelup/nestjs/issues/120)
+- **dynamic modules:** helpers to reduce dynamic module boilerplate ([80a2b2c](https://github.com/golevelup/nestjs/commit/80a2b2c))
+- **rabbitmq:** adds consistent rabbitmq config ([8d6de1d](https://github.com/golevelup/nestjs/commit/8d6de1d)), closes [#34](https://github.com/golevelup/nestjs/issues/34)
+
+### BREAKING CHANGES
+
+- **all packages:** upgrades underlying nest package dependencies to v6 versions
+
 ## [1.4.3-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-common@1.4.3-rc.1...@golevelup/nestjs-common@1.4.3-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/nestjs-common

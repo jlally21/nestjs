@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **common:** expose full gql request api ([4f649ea](https://github.com/golevelup/nestjs/commit/4f649ea)), closes [#122](https://github.com/golevelup/nestjs/issues/122)
+
+### Features
+
+- **graphql-request:** module ([c38ca5d](https://github.com/golevelup/nestjs/commit/c38ca5d))
+
 ## [0.1.8-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-graphql-request@0.1.8-rc.1...@golevelup/nestjs-graphql-request@0.1.8-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/nestjs-graphql-request

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.4.0-rc.0 (2021-12-17)
+
+### Bug Fixes
+
+- **eslint:** fix sonarcloud diplicate code error ([1868fab](https://github.com/golevelup/nestjs/commit/1868fab))
+- **mocks:** usage as nestjs providers ([ded433d](https://github.com/golevelup/nestjs/commit/ded433d)), closes [#18](https://github.com/golevelup/nestjs/issues/18)
+- **ts-jest:** handling falsy values and undefined ([4152838](https://github.com/golevelup/nestjs/commit/4152838)), closes [#211](https://github.com/golevelup/nestjs/issues/211)
+
+### Features
+
+- **testing:** new module for testing utilities ([88a7452](https://github.com/golevelup/nestjs/commit/88a7452)), closes [AB#20](https://github.com/AB/issues/20)
+- **ts-jest:** improve support for partials and promises ([82ddac4](https://github.com/golevelup/nestjs/commit/82ddac4))
+
 ## [0.3.3-rc.2](https://github.com/golevelup/nestjs/compare/@golevelup/ts-jest@0.3.3-rc.1...@golevelup/ts-jest@0.3.3-rc.2) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/ts-jest
