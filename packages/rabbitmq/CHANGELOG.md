@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.18.2-rc.0](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.18.1...@golevelup/nestjs-rabbitmq@1.18.2-rc.0) (2021-12-17)
+
+### Features
+
+- add option for arguments when binding queue to an exchange ([41d2725](https://github.com/golevelup/nestjs/commit/41d2725))
+
 ## [1.18.1](https://github.com/golevelup/nestjs/compare/@golevelup/nestjs-rabbitmq@1.18.0...@golevelup/nestjs-rabbitmq@1.18.1) (2021-10-30)
 
 ### Bug Fixes
