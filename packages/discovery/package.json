@@ -1,5 +1,5 @@
 {
-  "name": "@golevelup/nestjs-discovery",
+  "name": "joe-forked-golevelup-nestjs-discovery",
   "version": "2.3.2-rc.2",
   "description": "A Badass NestJS module for querying your app's controllers, providers and handlers",
   "keywords": [
@@ -51,5 +51,5 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "gitHead": "0f3ddc7b618da059c7a835442e0a4dfb1541e926"
+  "gitHead": "db946201ad281da9092b17b8ccfd6772a4ed67f6"
 }

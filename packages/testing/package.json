@@ -1,5 +1,5 @@
 {
-  "name": "@golevelup/ts-jest",
+  "name": "joe-forked-golevelup-ts-jest",
   "version": "0.3.3-rc.2",
   "description": "Reusable utilties to help level up NestJS Testing",
   "author": "Jesse Carter <jesse.r.carter@gmail.com>",
@@ -49,5 +49,5 @@
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   },
-  "gitHead": "0f3ddc7b618da059c7a835442e0a4dfb1541e926"
+  "gitHead": "db946201ad281da9092b17b8ccfd6772a4ed67f6"
 }
