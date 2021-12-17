@@ -1,6 +1,5 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "joe-forked-golevelup",
   "license": "MIT",
   "workspaces": [
     "packages/*"
