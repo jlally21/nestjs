@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3-rc.1](https://github.com/golevelup/nestjs/compare/@golevelup/ts-jest@0.3.3-rc.0...@golevelup/ts-jest@0.3.3-rc.1) (2021-12-17)
+
+**Note:** Version bump only for package @golevelup/ts-jest
+
 ## [0.3.3-rc.0](https://github.com/golevelup/nestjs/compare/@golevelup/ts-jest@0.3.2...@golevelup/ts-jest@0.3.3-rc.0) (2021-12-17)
 
 **Note:** Version bump only for package @golevelup/ts-jest
